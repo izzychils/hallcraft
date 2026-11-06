@@ -9,8 +9,8 @@ import { useAuth } from "@/features/auth/auth";
 
 const LINKS = [
   { href: "/products", label: "Products" },
-  { href: "/#intelligence", label: "Intelligence" },
-  { href: "/#templates", label: "Templates" },
+  { href: "/intelligence", label: "Intelligence" },
+  { href: "/templates", label: "Templates" },
   { href: "/about", label: "About" },
   { href: "/contact", label: "Contact" },
 ];
@@ -58,7 +58,7 @@ export function MarketingNav() {
             <MenuLabel>By occasion</MenuLabel>
             {SOLUTIONS.map((solution) => (
               <MenuItem key={solution}>
-                <a href="#templates" className="flex items-center justify-between gap-2">
+                <a href="/templates" className="flex items-center justify-between gap-2">
                   {solution}
                   <ArrowUpRight className="h-3 w-3 text-[#a29a8b]" />
                 </a>

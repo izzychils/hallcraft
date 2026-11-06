@@ -244,7 +244,7 @@ export default function LandingPage() {
                   <ArrowUpRight className="h-3.5 w-3.5" />
                 </Link>
                 <a
-                  href="#platform"
+                  href="/platform"
                   className="inline-flex items-center gap-1.5 border-b border-[#b7ae9e] pb-1 text-[12px] font-medium text-[#2f2b24] transition-colors hover:border-[#111]"
                 >
                   See a live room
@@ -408,7 +408,7 @@ export default function LandingPage() {
               Draft your first room
             </Link>
             <a
-              href="#intelligence"
+              href="/intelligence"
               className="inline-flex items-center gap-1.5 px-2 py-2 text-[11.5px] text-[#5d574c] underline decoration-[#c6bdad] underline-offset-4 hover:decoration-[#111]"
             >
               How the planner thinks
