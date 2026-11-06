@@ -35,7 +35,7 @@ const GROUPS = [
     links: [
       { label: "Privacy Policy", href: "/privacy" },
       { label: "Terms of Service", href: "/terms" },
-      { label: "About", href: "/about" },
+      { label: "Company Verification", href: "/verify" },
       { label: "Contact", href: "/contact" },
     ],
   },

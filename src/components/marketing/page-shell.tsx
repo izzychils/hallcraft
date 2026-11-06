@@ -66,6 +66,7 @@ export function PageShell({
                     { label: "About", href: "/about" },
                     { label: "Products", href: "/products" },
                     { label: "Contact", href: "/contact" },
+                    { label: "Company Verification", href: "/verify" },
                     { label: "Privacy Policy", href: "/privacy" },
                     { label: "Terms of Service", href: "/terms" },
                   ].map((link) => (
