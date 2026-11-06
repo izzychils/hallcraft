@@ -16,10 +16,11 @@ import {
   Users,
   Wand2,
 } from "lucide-react";
-import { Logo, LogoMark } from "@/components/brand";
+import { LogoMark } from "@/components/brand";
 import { buttonStyles } from "@/components/ui/button";
 import { CursorTag } from "@/components/marketing/name-tag";
 import { MarketingNav } from "@/components/marketing/nav";
+import { Footer } from "@/components/marketing/footer";
 import { FloorPlanPreview } from "@/features/floorplan/render";
 import { TEMPLATE_BY_ID } from "@/features/floorplan/templates";
 import { FLOORPLAN_DEFINITIONS } from "@/features/floorplan/constants";
@@ -939,94 +940,7 @@ export default function LandingPage() {
         </div>
       </section>
 
-      {/* Footer */}
-      <footer className="border-t border-[#ddd6c8] bg-[#f8f4ea]">
-        <div className="mx-auto max-w-[1320px] px-5 py-10 lg:px-8">
-          <div className="grid gap-8 lg:grid-cols-[1.4fr_2fr]">
-            <div>
-              <Logo />
-              <p className="mt-4 max-w-xs text-[11.5px] leading-5 text-[#7c7568]">
-                Event space design, planned to the centimetre. Draw it, seat it, check it, share
-                it.
-              </p>
-              <div className="mt-5 flex items-center gap-2">
-                <span className="h-1.5 w-1.5 animate-pulse-soft rounded-full bg-[#7d9a68]" />
-                <span className="text-[10px] text-[#8a8376]">
-                  Frontend preview · local data only
-                </span>
-              </div>
-            </div>
-
-            <div className="grid grid-cols-2 gap-6 sm:grid-cols-4">
-              {[
-                {
-                  title: "Product",
-                  links: [
-                    ["Studio", "/dashboard"],
-                    ["Templates", "/dashboard/templates"],
-                    ["Item library", "/dashboard/library"],
-                    ["Sign in", "/login"],
-                  ],
-                },
-                {
-                  title: "Occasions",
-                  links: [
-                    ["Awards nights", "/dashboard/templates"],
-                    ["Weddings", "/dashboard/templates"],
-                    ["Galas", "/dashboard/templates"],
-                    ["Conferences", "/dashboard/templates"],
-                  ],
-                },
-                {
-                  title: "Studio",
-                  links: [
-                    ["Our approach", "#story"],
-                    ["Intelligence", "#intelligence"],
-                    ["Pricing", "/signup"],
-                    ["Contact", "/signup"],
-                  ],
-                },
-                {
-                  title: "Legal",
-                  links: [
-                    ["Privacy", "/signup"],
-                    ["Terms", "/signup"],
-                    ["Accessibility", "/signup"],
-                    ["Security", "/signup"],
-                  ],
-                },
-              ].map((group) => (
-                <div key={group.title}>
-                  <p className="text-[9.5px] font-semibold uppercase tracking-[0.14em] text-[#9a9488]">
-                    {group.title}
-                  </p>
-                  <ul className="mt-3 space-y-2">
-                    {group.links.map(([label, href]) => (
-                      <li key={label}>
-                        <Link
-                          href={href}
-                          className="text-[11px] text-[#6f695e] transition-colors hover:text-[#111]"
-                        >
-                          {label}
-                        </Link>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              ))}
-            </div>
-          </div>
-
-          <div className="mt-10 flex flex-wrap items-center justify-between gap-3 border-t border-[#e5dfd1] pt-4 text-[10px] text-[#9a9488]">
-            <p>© {new Date().getFullYear()} Hallcraft Studio. A product concept.</p>
-            <p className="flex items-center gap-2">
-              Designed for rooms that only happen once.
-              <span className="h-3 w-px bg-[#d9d2c4]" />
-              Built for the web.
-            </p>
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 }

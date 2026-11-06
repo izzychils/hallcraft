@@ -3,9 +3,22 @@ import "./globals.css";
 import { Providers } from "@/components/providers";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://hallcraft.xyz"),
   title: "Hallcraft: Event space design, planned to the centimetre",
   description:
     "Design event spaces before they exist. Hallcraft turns a brief into an editable 2D floor plan, seats your guests, and checks the room before the first crate arrives.",
+  icons: {
+    icon: "/hallcraft-logo.png",
+    apple: "/hallcraft-logo.png",
+  },
+  openGraph: {
+    title: "Hallcraft: Event space design, planned to the centimetre",
+    description:
+      "Design event spaces before they exist. Hallcraft turns a brief into an editable 2D floor plan, seats your guests, and checks the room before the first crate arrives.",
+    url: "https://hallcraft.xyz",
+    siteName: "Hallcraft",
+    type: "website",
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

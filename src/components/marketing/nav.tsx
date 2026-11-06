@@ -8,10 +8,11 @@ import { Menu as Dropdown, MenuItem, MenuLabel } from "@/components/ui/menu";
 import { useAuth } from "@/features/auth/auth";
 
 const LINKS = [
-  { href: "#platform", label: "Platform" },
-  { href: "#intelligence", label: "Intelligence" },
-  { href: "#templates", label: "Templates" },
-  { href: "#story", label: "About" },
+  { href: "/products", label: "Products" },
+  { href: "/#intelligence", label: "Intelligence" },
+  { href: "/#templates", label: "Templates" },
+  { href: "/about", label: "About" },
+  { href: "/contact", label: "Contact" },
 ];
 
 const SOLUTIONS = [
