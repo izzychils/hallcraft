@@ -35,7 +35,7 @@ const GROUPS = [
     links: [
       { label: "Privacy Policy", href: "/privacy" },
       { label: "Terms of Service", href: "/terms" },
-      { label: "Company Verification", href: "/verify" },
+      // { label: "Company Verification", href: "/verify" },
       { label: "Contact", href: "/contact" },
     ],
   },
@@ -52,7 +52,7 @@ export function Footer() {
               Event space design, planned to the centimetre. Draw it, seat it, check it, share
               it.
             </p>
-            <p className="mt-4 text-[10.5px] font-semibold text-[#111]">{site.companyLine}</p>
+            {/* <p className="mt-4 text-[10.5px] font-semibold text-[#111]">{site.companyLine}</p> */}
             <p className="mt-2 text-[10.5px] leading-5 text-[#8a8376]">
               <a
                 href={`mailto:${site.email}`}
@@ -96,7 +96,7 @@ export function Footer() {
 
         <div className="mt-10 flex flex-wrap items-center justify-between gap-3 border-t border-[#e5dfd1] pt-4 text-[10px] text-[#9a9488]">
           <p>
-            © {new Date().getFullYear()} {site.company}. {site.name} is a product of {site.company}.
+            © {new Date().getFullYear()} {site.company}. {/* {site.name} is a product of {site.company}. */}
           </p>
           <div className="flex flex-wrap items-center gap-3">
             <Link href="/privacy" className="transition-colors hover:text-[#111]">

@@ -1,4 +1,4 @@
-import { Metadata } from "next";
+/* import { Metadata } from "next";
 import { PageShell } from "@/components/marketing/page-shell";
 import VerificationCard from "@/components/verification-card";
 import { site } from "@/lib/site";
@@ -22,7 +22,7 @@ export default function VerifyPage() {
           <VerificationCard />
         </div>
 
-        {/* Info Section */}
+        {/* Info Section *\/}
         <div className="border-t border-[#e2dccf] bg-[#f8f4ea] px-6 py-8 sm:px-9">
           <h2 className="mb-6 text-[15px] font-semibold tracking-[-0.01em] text-[#111]">
             Why Verify?
@@ -105,4 +105,10 @@ export default function VerifyPage() {
       </div>
     </PageShell>
   );
+}
+ */
+
+// This page is temporarily disabled
+export default function VerifyPage() {
+  return null;
 }
