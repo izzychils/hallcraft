@@ -6,7 +6,7 @@ import { PageShell, Section, Bullets } from "@/components/marketing/page-shell";
 export const metadata: Metadata = {
   title: "About",
   description:
-    "Hallcraft is a floor plan studio for events from Ivents: draw the room, seat the guests and share an exact plan.",
+    "Hallcraft is a floor plan studio for events: draw the room, seat the guests and share an exact plan.", // "Hallcraft is a floor plan studio for events from Ivents: draw the room, seat the guests and share an exact plan.",
 };
 
 export default function AboutPage() {

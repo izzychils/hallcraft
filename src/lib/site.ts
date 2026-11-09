@@ -10,8 +10,8 @@ export const site = {
   tagline: "Event space design, planned to the centimetre",
   description:
     "Hallcraft is a floor plan studio for events: draw the room, seat the guests, check the spacing and share an exact plan with the venue and the team.",
-  company: "Ivents",
-  companyLine: "Hallcraft is a product of Ivents.",
+  company: "Hallcraft", // "Ivents",
+  companyLine: "Hallcraft", // "Hallcraft is a product of Ivents.",
   email: "hello@hallcraft.xyz",
   location: "Lagos, Nigeria",
   lastUpdated: "4 November 2026",

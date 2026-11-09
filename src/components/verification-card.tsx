@@ -15,11 +15,11 @@ interface CompanyRecord {
   country: string;
 }
 
-// Official Hallcraft/Ivents company record
+// Official Hallcraft company record
 const companyDatabase: CompanyRecord[] = [
   {
     registrationId: "HC-2026-00001",
-    companyName: "Ivents",
+    companyName: "Hallcraft", // "Ivents",
     website: "hallcraft.xyz",
     status: "Verified",
     registrationDate: "2026-01-10",
