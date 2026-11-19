@@ -19,7 +19,7 @@ const products = [
   {
     name: "Item library",
     audience: "For the people who build the room",
-    copy: "A measured catalogue of tables, chairs, staging, rigging and bars with footprints and access needs — the difference between a mood board and a plan.",
+    copy: "A measured catalogue of tables, chairs, staging, rigging and bars with footprints and access needs - the difference between a mood board and a plan.",
     points: ["Measured footprints", "Clearance rules", "Reusable across events"],
   },
   {
@@ -78,7 +78,7 @@ export default function ProductsPage() {
 
       <Section title="Occasions">
         <p>
-          Awards nights, weddings, galas, conferences, exhibitions and launches — anywhere seating,
+          Awards nights, weddings, galas, conferences, exhibitions and launches - anywhere seating,
           sight lines and access routes all have to be true at the same time.
         </p>
       </Section>

@@ -49,7 +49,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Hallcraft — event space design, planned to the centimetre",
+    title: "Hallcraft: event space design, planned to the centimetre",
     description:
       "Draw the room, seat the guests, check the spacing and share an exact floor plan with the venue and the team.",
   },

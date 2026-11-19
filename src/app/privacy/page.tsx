@@ -51,7 +51,7 @@ export default function PrivacyPage() {
 
       <Section title="Guest and attendee data">
         <p>
-          Seating charts often include names, dietary needs or accessibility requirements — personal
+          Seating charts often include names, dietary needs or accessibility requirements - personal
           data about people who have not agreed to use our software. In a live deployment, client
           data would be scoped to the event and to the account that owns it, exported only by those
           accounts, and never used for anything else.

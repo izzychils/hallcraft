@@ -5,7 +5,7 @@ import { PageShell, Section } from "@/components/marketing/page-shell";
 
 export const metadata: Metadata = {
   title: "Contact",
-  description: `Contact ${site.company} about Hallcraft — a demo, a venue partnership or help with a plan.`,
+  description: `Contact ${site.company} about Hallcraft - a demo, a venue partnership or help with a plan.`,
 };
 
 export default function ContactPage() {
@@ -13,7 +13,7 @@ export default function ContactPage() {
     <PageShell
       eyebrow="Contact"
       title="Tell us about the room."
-      intro="Dimensions, headcount and what has to fit — staging, a dance floor, a bar, sight lines. That is usually enough for us to say whether Hallcraft handles your room."
+      intro="Dimensions, headcount and what has to fit - staging, a dance floor, a bar, sight lines. That is usually enough for us to say whether Hallcraft handles your room."
       meta={`${site.companyLine} ${site.location}.`}
     >
       <Section title="Email">
