@@ -233,10 +233,10 @@ export default function LandingPage() {
                 What Hallcraft does
               </p>
               <p className="mt-2.5 text-pretty text-[15.5px] leading-7 text-[#2b2720] sm:text-[16px] sm:leading-7">
-                Hallcraft turns an event brief into a{" "}
+                Hallcraft uses AI to turn an event brief into a{" "}
                 <mark className="bg-[#e8f5a9] px-1 py-0.5 text-[#22260f]">measured, editable floor plan</mark>
-                . It seats the guests, checks the room and keeps every department on the same
-                drawing.
+                . AI generates the layout, seats the guests, checks the room and helps keep every
+                department on the same drawing.
               </p>
               <div className="mt-5 flex flex-wrap items-center gap-3">
                 <Link href="/signup" className={buttonStyles("default", "default") + " gap-1.5"}>

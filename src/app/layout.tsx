@@ -4,16 +4,16 @@ import { Providers } from "@/components/providers";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://hallcraft.online"),
-  title: "Hallcraft: Event space design, planned to the centimetre",
+  title: "Hallcraft: AI-powered event space design, planned to the centimetre",
   description:
-    "Design event spaces before they exist. Hallcraft turns a brief into an editable 2D floor plan, seats your guests, and checks the room before the first crate arrives.",
+    "Design event spaces before they exist. Hallcraft uses AI to turn your brief into an editable 2D floor plan, seats your guests, and checks the room before the first crate arrives.",
   icons: {
     icon: "/hallcraft-logo.png",
     apple: "/hallcraft-logo.png",
   },
   keywords: [
-    "event floor plan software",
-    "event space design",
+    "AI event floor plan software",
+    "AI-powered event space design",
     "seating plan tool",
     "venue layout planner",
     "wedding floor plan",
@@ -39,9 +39,9 @@ export const metadata: Metadata = {
   publisher: "Hallcraft",
   applicationName: "Hallcraft",
   openGraph: {
-    title: "Hallcraft: Event space design, planned to the centimetre",
+    title: "Hallcraft: AI-powered event space design, planned to the centimetre",
     description:
-      "Design event spaces before they exist. Hallcraft turns a brief into an editable 2D floor plan, seats your guests, and checks the room before the first crate arrives.",
+      "Design event spaces before they exist. Hallcraft uses AI to turn a brief into an editable 2D floor plan, seats your guests, and checks the room before the first crate arrives.",
     url: "https://hallcraft.online",
     siteName: "Hallcraft",
     locale: "en_NG",
@@ -49,9 +49,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Hallcraft: event space design, planned to the centimetre",
+    title: "Hallcraft: AI-powered event space design, planned to the centimetre",
     description:
-      "Draw the room, seat the guests, check the spacing and share an exact floor plan with the venue and the team.",
+      "AI generates floor plans from your brief, seats the guests, checks spacing and shares an exact plan with the venue and the team.",
   },
 };
 

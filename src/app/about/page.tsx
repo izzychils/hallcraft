@@ -19,13 +19,16 @@ export default function AboutPage() {
     >
       <Section title="What Hallcraft does">
         <p>
-          Draw the room at its real dimensions, place tables, staging, bars and walkways from a
-          measured item library, then seat guests against the plan. Hallcraft checks clearances as
-          you go, so a layout that looks fine in a sketch does not fail on the night.
+          Describe your event in plain language and AI generates a measured floor plan with tables,
+          staging, bars and walkways already positioned. You can then refine the layout, seat guests
+          against the plan, and Hallcraft checks clearances as you go, so a layout that looks fine in
+          a sketch does not fail on the night.
         </p>
         <p>
-          The finished plan is shareable: the venue, the caterer and the production team all work
-          from one version instead of three PDFs and a photograph of a whiteboard.
+          AI assists throughout: from generating the first draft to suggesting optimal layouts,
+          checking for spatial conflicts, and counting capacity automatically. The finished plan is
+          shareable: the venue, the caterer and the production team all work from one version instead
+          of three PDFs and a photograph of a whiteboard.
         </p>
       </Section>
 
@@ -42,13 +45,15 @@ export default function AboutPage() {
 
       <Section title="How it is built">
         <p>
-          Hallcraft is built around real measurements rather than decoration: a plan is only useful
-          if the numbers are true. Items carry their footprint and clearance, seats belong to tickets
-          and tables, and the plan is the same object the seating chart reads from.
+          Hallcraft combines AI with real measurements rather than decoration: a plan is only useful
+          if the numbers are true. AI reads your brief and generates layouts using measured items that
+          carry their footprint and clearance. Seats belong to tickets and tables, and the plan is the
+          same object the seating chart reads from.
         </p>
         <p>
-          This build is a frontend preview. Plans, guests and seating live in your browser and are
-          never uploaded.
+          AI assists with spatial reasoning, capacity counting, and safety checks while you maintain
+          full control over the design. This build is a frontend preview. Plans, guests and seating
+          live in your browser and are never uploaded.
         </p>
       </Section>
 
