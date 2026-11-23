@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 
-const BASE = "https://hallcraft.xyz";
+const BASE = "https://hallcraft.online";
 const lastModified = new Date("2026-11-19");
 
 const publicPaths: {
@@ -10,6 +10,8 @@ const publicPaths: {
 }[] = [
   { path: "/", priority: 1, changeFrequency: "weekly" },
   { path: "/products", priority: 0.9, changeFrequency: "monthly" },
+  { path: "/intelligence", priority: 0.8, changeFrequency: "monthly" },
+  { path: "/templates", priority: 0.8, changeFrequency: "monthly" },
   { path: "/about", priority: 0.7, changeFrequency: "monthly" },
   { path: "/contact", priority: 0.6, changeFrequency: "monthly" },
   { path: "/privacy", priority: 0.3, changeFrequency: "yearly" },

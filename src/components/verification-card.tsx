@@ -20,7 +20,7 @@ const companyDatabase: CompanyRecord[] = [
   {
     registrationId: "HC-2026-00001",
     companyName: "Hallcraft", // "Ivents",
-    website: "hallcraft.xyz",
+    website: "hallcraft.online",
     status: "Verified",
     registrationDate: "2026-01-10",
     expiryDate: "2029-01-09",

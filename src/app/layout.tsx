@@ -3,7 +3,7 @@ import "./globals.css";
 import { Providers } from "@/components/providers";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://hallcraft.xyz"),
+  metadataBase: new URL("https://hallcraft.online"),
   title: "Hallcraft: Event space design, planned to the centimetre",
   description:
     "Design event spaces before they exist. Hallcraft turns a brief into an editable 2D floor plan, seats your guests, and checks the room before the first crate arrives.",
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     title: "Hallcraft: Event space design, planned to the centimetre",
     description:
       "Design event spaces before they exist. Hallcraft turns a brief into an editable 2D floor plan, seats your guests, and checks the room before the first crate arrives.",
-    url: "https://hallcraft.xyz",
+    url: "https://hallcraft.online",
     siteName: "Hallcraft",
     locale: "en_NG",
     type: "website",
@@ -60,10 +60,10 @@ const structuredData = {
   "@graph": [
     {
       "@type": "Organization",
-      "@id": "https://hallcraft.xyz/#organization",
+      "@id": "https://hallcraft.online/#organization",
       name: "Hallcraft",
-      url: "https://hallcraft.xyz",
-      email: "hello@hallcraft.xyz",
+      url: "https://hallcraft.online",
+      email: "hello@hallcraft.online",
       description:
         "Hallcraft is a floor plan studio for events: draw the room, seat the guests, check the spacing and share an exact plan.",
       address: {
@@ -74,10 +74,10 @@ const structuredData = {
     },
     {
       "@type": "WebSite",
-      "@id": "https://hallcraft.xyz/#website",
-      url: "https://hallcraft.xyz",
+      "@id": "https://hallcraft.online/#website",
+      url: "https://hallcraft.online",
       name: "Hallcraft",
-      publisher: { "@id": "https://hallcraft.xyz/#organization" },
+      publisher: { "@id": "https://hallcraft.online/#organization" },
       inLanguage: "en",
     },
     {
@@ -86,7 +86,7 @@ const structuredData = {
       applicationCategory: "DesignApplication",
       applicationSubCategory: "Event floor plan software",
       operatingSystem: "Web browser",
-      url: "https://hallcraft.xyz",
+      url: "https://hallcraft.online",
       description:
         "An editable 2D floor plan studio for events: tables, seating, spacing checks, templates and shareable plans for venues and teams.",
       featureList: [

@@ -7,7 +7,7 @@ export default function robots(): MetadataRoute.Robots {
       allow: "/",
       disallow: ["/dashboard", "/login", "/signup", "/studio"],
     },
-    sitemap: "https://hallcraft.xyz/sitemap.xml",
-    host: "https://hallcraft.xyz",
+    sitemap: "https://hallcraft.online/sitemap.xml",
+    host: "https://hallcraft.online",
   };
 }
